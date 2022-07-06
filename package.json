@@ -9,8 +9,7 @@
     "start": "concurrently \"tsc --watch\" \"cpx \\\"src/**/*.css\\\" dist --watch\"",
     "format": "prettier --write src/. && prettier --write example/src/.",
     "lint": "eslint src/.",
-    "test": "jest",
-    "prepare": "npm run build"
+    "test": "jest"
   },
   "keywords": [
     "react",
